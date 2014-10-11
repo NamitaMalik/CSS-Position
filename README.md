@@ -15,7 +15,7 @@ There are four types of positioning methods in CSS, these are:
 
  Let's catch hold of this property with the help of this small snippet:
 
-``HTML``
+```HTML```
 
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ There are four types of positioning methods in CSS, these are:
 </body>
 </html>
 
-``HTML``
+```HTML```
 
 In the above code heading "head1" is positioned as static. "head1" is contained inside a div "list1" which is positioned as **relative**. So what is **relative** position? But before moving into that, do remember that an element positioned as static is actually said to be not positioned!
 
@@ -63,7 +63,7 @@ A **relative** element is positioned according to its **normal** or **static** p
 
 Let's see another useful piece of code that would help in making this concept more clear:
 
-``HTML``
+```HTML```
 
 <!DOCTYPE html>
 <html>
@@ -102,7 +102,7 @@ Let's see another useful piece of code that would help in making this concept mo
 </body>
 </html>
 
-``HTML``
+```HTML```
 
 In the above code you must have seen we have used properties **top** and **left**, these have been used to move the element "head2" from its normal position.
 
