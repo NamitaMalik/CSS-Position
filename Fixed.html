@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Positioning Demo</title>
+    <style>
+
+        #list1, #list2, #list3 {
+            border: thick solid #69b;
+            position: relative;
+            margin: 70px;
+        }
+
+        #firsthead {
+            border: thin solid #69b;
+            position: fixed;
+            top: 1px;
+            left: 30px;
+            background-color: limegreen;
+        }
+
+        #head1 {
+            border: thin solid #69b;
+            position: static;
+            top: 20px;
+            left: 50px;
+        }
+
+        #head2 {
+            border: thin solid #69b;
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+
+        #head3 {
+            border: thin solid #69b;
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<h2 id="firsthead"> This is a list, my position is fixed!</h2>
+<div id="list1">
+    <h2 id="head1">List:My position is static.</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</div>
+<div id="list2">
+    <h3 id="head2">List:My position is relative.</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</div>
+<div id="list3">
+    <h3 id="head3">List:My position is absolute.</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</div>
+</body>
+</html>
