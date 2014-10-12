@@ -15,7 +15,7 @@ There are four types of positioning methods in CSS, these are:
 
  Let's catch hold of this property with the help of this small snippet:
 
-```HTML```
+```html
 
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ There are four types of positioning methods in CSS, these are:
 </body>
 </html>
 
-```HTML```
+```
 
 In the above code heading "head1" is positioned as static. "head1" is contained inside a div "list1" which is positioned as **relative**. So what is **relative** position? But before moving into that, do remember that an element positioned as static is actually said to be not positioned!
 
@@ -63,7 +63,7 @@ A **relative** element is positioned according to its **normal** or **static** p
 
 Let's see another useful piece of code that would help in making this concept more clear:
 
-```HTML```
+```html
 
 <!DOCTYPE html>
 <html>
@@ -102,7 +102,7 @@ Let's see another useful piece of code that would help in making this concept mo
 </body>
 </html>
 
-```HTML```
+```
 
 In the above code you must have seen we have used properties **top** and **left**, these have been used to move the element "head2" from its normal position.
 
@@ -116,7 +116,7 @@ An element positioned as **absolute** is positioned relative to the first parent
 
 Keep Calm and See the following Code:
 
-```HTML```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -176,7 +176,7 @@ Keep Calm and See the following Code:
 </body>
 </html>
 
-```HTML```
+```
 
 In the above code both "head3" and "head4" are positioned as **absolute**, yet there is difference in their positioning. If we closely look at the above code, "list3" which is the parent element of "head3" is positioned as relative, while "list4" which is the parent element of "head4" is not at all positioned, hence there is a huge difference in there position on the browser. "head4" uses the **body** of the document to position itself.
 
@@ -192,7 +192,7 @@ So to sum up, an absolutely positioned element is positioned relative to its par
 
 Let's see some live action here:
 
-```HTML```
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -273,7 +273,7 @@ Let's see some live action here:
 </body>
 </html>
 
-```HTML```
+```
 
 Try the above code on your browser and you will notice that heading "This is a list, my position is fixed!" will remain there even when you scroll the page.
 As you can see in the above code that heading "firsthead" has been positioned **fixed**, therefore even scrolling doesn't takes this heading out of sight!
