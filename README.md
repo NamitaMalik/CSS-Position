@@ -180,7 +180,7 @@ Keep Calm and See the following Code:
 
 In the above code both "head3" and "head4" are positioned as **absolute**, yet there is difference in their positioning. If we closely look at the above code, "list3" which is the parent element of "head3" is positioned as relative, while "list4" which is the parent element of "head4" is not at all positioned, hence there is a huge difference in there position on the browser. "head4" uses the **body** of the document to position itself.
 
-**Remember : Behaviour would have been same, had "head4" been statically positioned, as **static position** is actually **no position**.
+**Remember : Behaviour would have been same, had "head4" been statically positioned, as static position is actually no position.
 
 **Caution : Elements which are absolutely positioned can overlap with other elements.**
 
