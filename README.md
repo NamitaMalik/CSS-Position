@@ -1,15 +1,17 @@
 Positioning in CSS
 ==================
 
-**Positioning** is a very a concept in **CSS**. In order to make complex layouts, it is important to use **position** property of **CSS**. Elements can be positioned using **top**, **bottom**, **left** , **right** properties of **CSS** but before using them it is mandatory to set the **Positioning** property.
+**Positioning** is a very critical concept in **CSS**. In order to make complex layouts, it is important to use **position** property of **CSS**. Elements can be positioned using **top**, **bottom**, **left** , **right** properties of **CSS** but before using them it is mandatory to set the **Positioning** property.
 
 There are four types of **Positioning** methods in **CSS**, these are:
 
 **1. Static**
 
-This is the default **Positioning** of any **HTML** element. An element that is **static positioned**, is **positioned** according to the normal flow of the document. **Left** , **Right**, **Top** and **Bottom** properties do not work when **position** property of element is set as **static**.
+This is the default **Positioning** of any **HTML** element. An element that is **static positioned**, is **positioned** according to the normal flow of the document. **left**, **right**, **top** and **bottom** properties do not work when **position** property of element is set as **static**.
 
 Let's catch hold of this property with the help of this small snippet:
+
+**Note** : You can checkout full working source code from this [link](https://github.com/NamitaMalik/CSS-Position).
 
 **Static.html**
 ```HTML
@@ -26,6 +28,8 @@ Let's catch hold of this property with the help of this small snippet:
         #head1 {
             border: thin solid #69b;
             position: static;
+            left: 20px;
+            top: 30px;
         }
     </style>
 </head>
@@ -44,7 +48,11 @@ Let's catch hold of this property with the help of this small snippet:
 </html>
 ```
 
-In the above code heading "head1" is positioned as **static**. "head1" is contained inside a div "list1" which is positioned as **relative**. So what is **relative** **position**? But before moving into that, do remember that an element positioned as static is actually said to be not positioned!
+Open **Static.html** file into your favorite browser, you will see output like this:
+
+![RelativePositioning.png](https://raw.githubusercontent.com/NamitaMalik/CSS-Position/master/images/StaticPositioning.png)
+
+You might be thinking that, we have applied **left: 20px** and **top: 30px** on heading "head1" but its not working. Yes, you are thinking right! Because In the above code heading "head1" is positioned as **static** and as we have learned before ```**left**, **right**, **top** and **bottom** properties do not work when **position** property of element is set as **static**```, so **left: 20px** and **top: 30px** are not working! "head1" is contained inside a div "list1" which is positioned as **relative**. So what is **relative** **position**? But before moving into that, do remember that an element positioned as static is actually said to be not positioned!
 
 **2. Relative**
 
