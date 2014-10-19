@@ -96,6 +96,7 @@ Let's see another useful piece of code that would help in making this concept mo
 </body>
 </html>
 ```
+
 Open **Relative.html** file into your favorite browser, you will see output like this:
 
 ![RelativePositioning.png](https://raw.githubusercontent.com/NamitaMalik/CSS-Position/master/images/RelativePositioning.png)
@@ -108,43 +109,43 @@ When you would run the snippets given above in your browser, you would easily fe
 
 Third in the kitty is **absolute** **Positioning**, this can be a little tricky to understand, but we shall succeed I believe!
 
-An element positioned as **absolute** is positioned relative to the first parent element that is not positioned as static. In case there is no positioned ancestor, it positions itself according to the page **body**.
+An element positioned as **absolute** is positioned **relative** to the first parent element that is not positioned as static. In case there is no positioned ancestor, it positions itself according to the page **body**.
 
 Keep Calm and See the following Code:
 
 **Absolute.html**
-```html
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Positioning Demo</title>
+    <title>Absolute Positioning Demo</title>
     <style>
         #list3 {
             border: thick solid #69b;
             position: relative;
-            margin: 70px;
+            margin: 60px;
         }
         #list4 {
             border: thick solid #69b;
-            margin: 50px;
+            margin: 60px;
         }
         #head3 {
             border: thin solid #69b;
             position: absolute;
-            top: 20px;
-            left: 50px;
+            top: 10px;
+            left: 100px;
         }
         #head4 {
             border: thin solid #69b;
             position: absolute;
-            top: 20px;
-            left: 50px;
+            top: 10px;
+            left: 100px;
         }
     </style>
 </head>
 <body>
 <div id="list3">
-    <h3 id="head3">List:My position is absolute.</h3>
+    <h3 id="head3">List: My position is absolute and my ancestor have relative positioning.</h3>
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -154,7 +155,7 @@ Keep Calm and See the following Code:
     </ul>
 </div>
 <div id="list4">
-    <h3 id="head4">List:My position is absolute but my ancestor doesn't has a position.</h3>
+    <h3 id="head4">List: My position is absolute but my ancestor doesn't has a position.</h3>
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -167,13 +168,17 @@ Keep Calm and See the following Code:
 </html>
 ```
 
-In the above code both "head3" and "head4" are positioned as **absolute**, yet there is difference in their **Positioning**. If we closely look at the above code, "list3" which is the parent element of "head3" is positioned as relative, while "list4" which is the parent element of "head4" is not at all positioned, hence there is a huge difference in there **position** on the browser. "head4" uses the **body** of the document to **position** itself.
+Open **Absolute.html** file into your favorite browser, you will see output like this:
+
+![AbsolutePositioning.png](https://raw.githubusercontent.com/NamitaMalik/CSS-Position/master/images/AbsolutePositioning.png)
+
+After seeing the output, you must be thinking, head element "head3/h3" is inside the div/parent element "list3", but second head element "head4/h4" is not inside In the above code both "head3" and "head4" are positioned as **absolute**, yet there is difference in their **Positioning**. If we closely look at the above code, "list3" which is the parent element of "head3" is positioned as **relative**, while "list4" which is the parent element of "head4" is not at all positioned, hence there is a huge difference in there **position** on the browser. "head4" uses the **body** of the document to **position** itself.
 
 **Remember : Behaviour would have been same, had "head4" been statically positioned, as static position is actually no position.**
 
 **Caution : Elements which are absolutely positioned can overlap with other elements.**
 
-So to sum up, an absolutely positioned element is positioned relative to its parent element.
+So to sum up, an absolutely positioned element is positioned **relative** to its parent element.
 
 **4. Fixed position**
 
