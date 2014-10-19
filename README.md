@@ -58,7 +58,7 @@ You might be thinking that, we have applied **left: 20px** and **top: 30px** on 
 
 We had said above that div "list1" is positioned **relative**. Let us understand what does it exactly it means?
 
-A **relative** element is positioned according to its **normal** or **static** **position**. One can use **top** , **bottom** , **left** and **right** properties to move the element from the **position** where it would normally occur on a **webpage**.
+A **relative** element is positioned according to its **normal** or **static** **position**. One can use **top**, **bottom**, **left** and **right** properties to move the element from the **position** where it would normally occur on a **web page**.
 
 Let's see another useful piece of code that would help in making this concept more clear:
 
@@ -96,6 +96,9 @@ Let's see another useful piece of code that would help in making this concept mo
 </body>
 </html>
 ```
+Open **Relative.html** file into your favorite browser, you will see output like this:
+
+![RelativePositioning.png](https://raw.githubusercontent.com/NamitaMalik/CSS-Position/master/images/RelativePositioning.png)
 
 In the above code you must have seen we have used properties **top** and **left**, these have been used to move the element "head2" from its normal **position**.
 
@@ -258,4 +261,4 @@ As you can see in the above code that heading "firsthead" has been positioned **
 
 Well..in this blog we have seen one of the most critical concepts of **CSS**, however the picture would become clearer only when we use these **Positioning** methods in various situations in order to achieve the desired results.
 
-To check out the full working code please see my github repository.
+**Note** : To check out the full working source code please see [my Github repository](https://github.com/NamitaMalik/).
