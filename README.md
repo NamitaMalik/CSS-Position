@@ -191,19 +191,19 @@ Let's see some live action here:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Positioning Demo</title>
+    <title>Fixed Positioning Demo</title>
     <style>
         #list1, #list2, #list3 {
             border: thick solid #69b;
             position: relative;
-            margin: 70px;
+            margin: 50px;
         }
         #firsthead {
             border: thin solid #69b;
             position: fixed;
-            top: 1px;
-            left: 30px;
-            background-color: limegreen;
+            top: 234px;
+            left: 190px;
+            background-color: #cdb4c6;
         }
         #head1 {
             border: thin solid #69b;
@@ -214,19 +214,19 @@ Let's see some live action here:
         #head2 {
             border: thin solid #69b;
             position: relative;
-            top: 20px;
-            left: 50px;
+            top: 12px;
+            left: 23px;
         }
         #head3 {
             border: thin solid #69b;
             position: absolute;
             top: 20px;
-            left: 50px;
+            left: 100px;
         }
     </style>
 </head>
 <body>
-<h2 id="firsthead"> This is a list, my position is fixed!</h2>
+<h2 id="firsthead"> This is a Heading, my position is fixed! I don't move on Scrolling... </h2>
 <div id="list1">
     <h2 id="head1">List:My position is static.</h2>
     <ul>
@@ -261,9 +261,14 @@ Let's see some live action here:
 </html>
 ```
 
-Try the above code on your browser and you will notice that heading "This is a list, my **position** is fixed!" will remain there even when you scroll the page.
+Open **Fixed.html** file into your favorite browser, you will see output like this:
+
+![FixedPositioning.png](https://raw.githubusercontent.com/NamitaMalik/CSS-Position/master/images/FixedPositioning.png)
+
+You will notice that heading " This is a Heading, my **position** is fixed! I don't move on Scrolling... " will remain there even when you scroll the page.
+
 As you can see in the above code that heading "firsthead" has been positioned **fixed**, therefore even scrolling doesn't takes this heading out of sight!
 
-Well..in this blog we have seen one of the most critical concepts of **CSS**, however the picture would become clearer only when we use these **Positioning** methods in various situations in order to achieve the desired results.
+Well.. in this blog we have seen one of the most critical concepts of **CSS**, however the picture would become clearer only when we use these **Positioning** methods in various situations in order to achieve the desired results.
 
 **Note** : To check out the full working source code please see [my Github repository](https://github.com/NamitaMalik/).
