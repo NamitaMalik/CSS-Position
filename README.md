@@ -145,7 +145,7 @@ Keep Calm and See the following Code:
 </head>
 <body>
 <div id="list3">
-    <h3 id="head3">List: My position is absolute and my ancestor have relative positioning.</h3>
+    <h3 id="head3">List: My position is absolute and my ancestor has relative positioning.</h3>
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -155,7 +155,7 @@ Keep Calm and See the following Code:
     </ul>
 </div>
 <div id="list4">
-    <h3 id="head4">List: My position is absolute but my ancestor doesn't has a position.</h3>
+    <h3 id="head4">List: My position is absolute but my ancestor doesn't have position.</h3>
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
