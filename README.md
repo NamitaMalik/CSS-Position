@@ -96,6 +96,7 @@ Let's see another useful piece of code that would help in making this concept mo
 </body>
 </html>
 ```
+**NOTE :** There is only one difference between **Static.html** and **Relative.html** that head/h3 tag has **relative position** while in Static.html its **position** was **static**.
 
 Open **Relative.html** file into your favorite browser, you will see output like this:
 
