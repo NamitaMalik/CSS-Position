@@ -96,6 +96,7 @@ Let's see another useful piece of code that would help in making this concept mo
 </body>
 </html>
 ```
+**NOTE :** There is only one difference between **Static.html** and **Relative.html** that head/h3 tag has **relative position** while in Static.html its **position** was **static**.
 
 Open **Relative.html** file into your favorite browser, you will see output like this:
 
@@ -172,7 +173,7 @@ Open **Absolute.html** file into your favorite browser, you will see output like
 
 ![AbsolutePositioning.png](https://raw.githubusercontent.com/NamitaMalik/CSS-Position/master/images/AbsolutePositioning.png)
 
-After seeing the output, you must be thinking, head element "head3/h3" is inside the div/parent element "list3", but second head element "head4/h4" is not inside In the above code both "head3" and "head4" are positioned as **absolute**, yet there is difference in their **Positioning**. If we closely look at the above code, "list3" which is the parent element of "head3" is positioned as **relative**, while "list4" which is the parent element of "head4" is not at all positioned, hence there is a huge difference in there **position** on the browser. "head4" uses the **body** of the document to **position** itself.
+After seeing the output, you must be thinking, head element "head3/h3" is inside the div/parent element "list3", but second head element "head4/h4" is not inside. In the above code both "head3" and "head4" are positioned as **absolute**, yet there is difference in their **Positioning**. If we closely look at the above code, "list3" which is the parent element of "head3" is positioned as **relative**, while "list4" which is the parent element of "head4" is not at all positioned, hence there is a huge difference in there **position** on the browser. "head4" uses the **body** of the document to **position** itself.
 
 **Remember : Behaviour would have been same, had "head4" been statically positioned, as static position is actually no position.**
 
